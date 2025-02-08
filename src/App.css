@@ -1,0 +1,49 @@
+.container {
+  padding: 20px;
+  text-align: center;
+  background: paleturquoise ;
+  font-family: "Montserrat", serif;
+}
+
+.button-container {
+  margin-bottom: 20px;
+}
+h1{
+  color: #333;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-style: bold;
+}
+.scroll-button {
+  padding: 20px 25px;
+  margin: 5px;
+  background-color:#2e86c1 ;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-family: "Montserrat", serif;
+}
+
+.scroll-button:hover {
+  background-color: darkblue;
+}
+
+.section {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gray;
+  margin: 20px 0;
+  background: #fff;
+}
+
+.section-img {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  border-radius: 10px;
+}
